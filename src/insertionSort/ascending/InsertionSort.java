@@ -30,6 +30,7 @@ class InsertionSort {
                 indexOfElementBeforeKey--;
             }
         }
+
         return intArrays;
     }
 }
@@ -39,4 +40,6 @@ class InsertionSort {
     It is useful only for small data sets.
 
     It runs in O(n ^ 2)
+
+    θ(n)steps(key position)
  */
