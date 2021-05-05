@@ -1,4 +1,4 @@
-package insertionSort;
+package insertionSort.ascending;
 
 import java.util.Arrays;
 

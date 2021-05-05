@@ -1,8 +1,8 @@
-package mergeSort;
+package mergeSort.ascending;
 
 import java.util.Arrays;
 
-public class MergeSort {
+class MergeSort {
 
     public static void main(String[] args) {
 
