@@ -225,6 +225,9 @@ class MergeSort {
 }
 
 /*
+    https://www.toptal.com/developers/sorting-algorithms
+    https://blog.faradars.org/sorting-lgorithms/
+
     Merge Sort is recursive (method that calls itself)
 
     Divide-and-Conquer algorithm

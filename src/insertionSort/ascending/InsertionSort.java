@@ -35,6 +35,8 @@ class InsertionSort {
     }
 }
 /*
+    https://visualgo.net/bn/sorting
+
     Insertion sort is not considered a fast sorting algorithm, because it uses nested loops to shift items into places.
 
     It is useful only for small data sets.
