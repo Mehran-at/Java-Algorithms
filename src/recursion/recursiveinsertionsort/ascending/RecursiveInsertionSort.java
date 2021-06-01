@@ -1,4 +1,4 @@
-package recursion.recursiveinsertionsort;
+package recursion.recursiveinsertionsort.ascending;
 
 import java.util.Arrays;
 
@@ -16,7 +16,6 @@ class RecursiveInsertionSort {
     private void doInsertionSortRecursive(int[] sourceArray, int arraysLength) {
 
         if (arraysLength <= 1) {
-
             return;
         }
 
@@ -24,12 +23,15 @@ class RecursiveInsertionSort {
         System.out.println("--->" + arraysLength);
 
         int lastIdx = sourceArray[arraysLength - 1];
-        int j = arraysLength - 2;
+        int j = arraysLength - 2;// 1
 
         while (j >= 0 && sourceArray[j] > lastIdx) {
             sourceArray[j + 1] = sourceArray[j];
-            j--; // 2
+            j--;
         }
         sourceArray[j + 1] = lastIdx;
     }
 }
+/*
+    https://www.youtube.com/watch?v=M6lYob
+ */

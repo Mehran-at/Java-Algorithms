@@ -41,7 +41,7 @@ class MergeSort {
             rightHalfSide[j] = sourceArray[midIdx + j];
         }
 
-        int[] resultArray = new int[sourceArray.length];
+        int[] resultArray;
 
         leftHalfSide = mergeSort(leftHalfSide);
         rightHalfSide = mergeSort(rightHalfSide);
