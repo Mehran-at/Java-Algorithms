@@ -105,3 +105,7 @@ class BinaryTree {
     }
 }
 //  https://www.youtube.com/watch?v=M6lYob8STMI&ab_channel=DerekBanas
+
+
+//How to delete nodes
+//https://www.youtube.com/watch?v=UcOxGmj45AA
