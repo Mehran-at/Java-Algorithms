@@ -10,18 +10,18 @@ class BinaryTree {
 
         theTree.addNode(50, "Boss");
         theTree.addNode(25, "Vice Press");
-        theTree.addNode(15, "Official Manger");
+        theTree.addNode(15, "Office Manger");
         theTree.addNode(30, "Secretary");
-        theTree.addNode(75, "Seller");
-        theTree.addNode(85, "SalesMann Manager");
+        theTree.addNode(75, "Sales Manager");
+        theTree.addNode(85, "SalesMann");
 
+        System.out.println("<=====In Order Traverse Tree=====>");
         theTree.inOrderTraverseTree(theTree.root);
-        System.out.println("<==========>");
+        System.out.println("<=====Pre Order Traverse Tree=====>");
         theTree.preOrderTraverseTree(theTree.root);
-        System.out.println("<==========>");
+        System.out.println("<=====Post Order Traverse Tree=====>");
         theTree.postOrderTraverseTree(theTree.root);
-        System.out.println("<==========>");
-        System.out.println("Search for 30 ? ...");
+        System.out.println("<=====Search for 30 ? ...=====>");
         System.out.println(theTree.findNode(30));
 
 
@@ -63,7 +63,7 @@ class BinaryTree {
                 } else {
                     focusNode = focusNode.rightChild;
                     if (focusNode == null) {
-                        parent.leftChild = newNode;
+                        parent.rightChild = newNode;
                         return;
                     }
                 }
